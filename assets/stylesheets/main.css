@@ -293,6 +293,15 @@ p a {
   Navigation
   ========================================
 */
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
 
 .nav {
   text-align: right;
